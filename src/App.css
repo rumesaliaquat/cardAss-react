@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f7f9fc;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(30, 29, 29);
 }
 
 .App-link {
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card{
+  width: 300px;
+  box-shadow: 5px 5px 10px rgb(151, 154, 154);
+}
+img{
+  width: 200px;
+}
+button{
+  padding: 10px;
+  margin: 0px 0px 20px 0px ;
+  background-color:cadetblue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 3px rgb(197, 194, 194);
+  width: 200px;
+  font-size: 17px;
+  font-weight:700
 }
